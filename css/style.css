@@ -1,0 +1,225 @@
+/* font-family: 'Montserrat', sans-serif; */
+
+*{
+    margin: 0;
+    padding: 0;
+} 
+/* TOP HEADER SECTION START  */
+.top_header {
+background: #f9f9f9;
+padding: 15px 0;
+}
+.top_header p { 
+margin: 0; 
+padding: 0;    
+color: gray;
+}
+.top_header ul {   
+margin: 0;    
+padding: 0;    
+list-style: none;    
+display: flex;   
+justify-content: space-between;
+}
+.top_header ul li {
+    
+}
+.top_header ul li a {  
+text-decoration: none;   
+color: gray;    
+font-size: 15px;   
+text-transform: uppercase;
+}
+/* TOP HEADER SECTION END  */
+
+/* HEADER SECTION START  */
+.btn_join, .large_btn_join, .join_us{
+background: #ff9b1a;
+padding: 0;
+padding: 5px 10px;
+border-radius: 30px;
+text-transform: uppercase;
+color: #fff;
+font-size: 14px;
+}
+.large_btn_join{
+    display: none;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: #161616;
+    text-transform: uppercase;
+    font-size: 15px;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+
+}
+.btn_join:hover , .large_btn_join:hover {
+    background: rgb(211, 145, 23);
+    color: #fff;
+}
+.join_us:hover{
+    background: transparent;
+    color: #fff;
+    border: 1px solid #fff;
+
+}
+/* HEADER SECTION END  */
+
+/* BANNER SECTION START  */
+.banner{
+    background-image: url(../images/banner.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 80vh;
+}
+.hg{
+    min-height: 80vh;
+    align-items: center;
+
+}
+.banner h1{color: #fff;text-transform: capitalize;}
+.count{
+display: flex;
+justify-content: space-around;
+margin: 30px 0;
+}
+.count_item{
+
+}
+.count_item h5{color: #fff;font-size: 18px;}
+.count_item h6{color: #fff;font-size: 14px;}
+.join_us{
+    padding: 0;
+    padding: 7px 20px;
+    border: 1px solid #ff9b1a;;
+}
+.btn_contact_us{
+    padding: 0;
+    padding: 7px 20px;
+    color: #fff;
+    border: 1px solid #fff;
+    border-radius: 30px;
+    font-size: 15px;
+    
+}
+.btn_contact_us:hover{
+    color: #fff;
+    background-color: #ff9b1a;
+    border: 1px solid #ff9b1a;
+}
+/* BANNER SECTION END  */
+
+/* INTRUCTION SECTION START HERE */
+.instruction{
+
+}
+.instruction_item{
+    background-size: cover;
+    background-position: top;
+    background-repeat: no-repeat;
+    padding: 50px 15px;
+    transition: .4s all ease-in-out;
+    position: relative;
+    z-index: 0;
+    border: 1px solid #eaeaea;
+    border-radius: 3px;
+}
+.instruction_item::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0%;
+    height: 0%;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#c4a006+1,e06202+100&0.85+0,0.85+100 */
+    background: -moz-linear-gradient(top,  rgba(196,160,6,0.85) 0%, rgba(196,160,6,0.85) 1%, rgba(224,98,2,0.85) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top,  rgba(196,160,6,0.85) 0%,rgba(196,160,6,0.85) 1%,rgba(224,98,2,0.85) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom,  rgba(196,160,6,0.85) 0%,rgba(196,160,6,0.85) 1%,rgba(224,98,2,0.85) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    z-index: -1;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#d9c4a006', endColorstr='#d9e06202',GradientType=0 ); /* IE6-9 */
+}
+.instruction_item:hover{
+    background-image: url(../images/bitcoin.png);
+    background-position: center;
+}
+.instruction_item:hover::before{
+    width: 100%;
+    height: 100%;
+}
+.instruction_item:hover i{
+    color: #fff;
+}
+.instruction_item:hover h3{
+    color: #fff;
+}
+.instruction_item:hover p{
+    color: #fff;
+}
+.instruction_item i{font-size: 40px;color: #ff9b1a;}
+
+.instruction_item h3{
+    
+}
+.instruction_item p{
+    
+}
+/* INTRUCTION SECTION END HERE */
+
+/* SERVICE SECTION START HERE */
+.service{
+    
+}
+.heading{
+
+}
+.heading h2{
+    
+text-transform: uppercase;
+    
+font-size: 30px;
+}
+.heading p{color: #6e6e6e;}
+.heading span{
+    
+display: block;
+    
+width: 50px;
+    
+height: 2px;
+    
+background: #e46b05;
+    
+margin: auto;
+}
+.service_item{
+
+}
+.item_img{
+
+}
+.item_img img{
+    
+width: 18%;
+    
+margin-bottom: 10px;
+}
+.service_item h3{
+
+font-size: 20px;
+}
+.service_item p{
+
+color: #424242;
+
+font-size: 15px;
+}
+.btn_veiw{
+    color: #000;
+    border-color: #000;
+    margin: 20px 0;
+    text-transform: uppercase;
+    font-size: 12px;
+    font-weight: 700;
+}
+/* SERVICE SECTION END HERE */

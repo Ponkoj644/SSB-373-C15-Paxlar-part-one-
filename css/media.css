@@ -1,0 +1,14 @@
+@media(max-width:767px){
+    .btn_join{
+        display: none;
+    }
+    .large_btn_join{
+        display: inherit;
+    }
+    .instruction_item{
+        margin-bottom: 30px;
+    }
+    .service_item{
+        margin-bottom: 30px;
+    }
+}
